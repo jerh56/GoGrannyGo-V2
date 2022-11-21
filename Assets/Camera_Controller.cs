@@ -18,7 +18,9 @@ public class Camera_Controller : MonoBehaviour
         //Vector3 position = transform.position;
         //position.x = Granny.transform.position.x;
         //transform.position = position;
-                        Debug.Log(Screen.orientation);
+                       
+                       
+                       // Debug.Log(Screen.orientation);
 
 
            /*if (Input.deviceOrientation==DeviceOrientation.Portrait||Input.deviceOrientation==DeviceOrientation.PortraitUpsideDown) 
