@@ -5,6 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - joystick
+  - lblCoins
+  - lblLives
+  - lblTime
+  - lblGameOver
+  - panelPortrait
+  - lblScore
+  - lblLevelDone
+  - heart_01
+  - heart_02
+  - heart_03
+  - lblGamePaused
+  - heart_x
   layers:
   - Default
   - TransparentFX
@@ -50,4 +62,7 @@ TagManager:
     locked: 0
   - name: New Layer 3
     uniqueID: 3200888723
+    locked: 0
+  - name: Capa superior
+    uniqueID: 2734234189
     locked: 0
