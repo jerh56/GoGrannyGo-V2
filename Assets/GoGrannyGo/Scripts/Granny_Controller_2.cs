@@ -98,7 +98,7 @@ public class Granny_Controller_2 : MonoBehaviour
         if (Granny_Die){
             //Granny.transform.localScale = new Vector3(1,-1,1);
         }else{
-            //Animator.SetBool("jump", !Grounded);
+            Animator.SetBool("jump", !Grounded);
         }
         
         if (Physics2D.Raycast(transform.position, Vector3.down, 0.7f)){
@@ -314,7 +314,7 @@ public class Granny_Controller_2 : MonoBehaviour
     }
 
     public void Jump(){
-        //isGrounded = (bool)Variables.Object(Granny).Get("Grounded"); 
+        isGrounded = (bool)Variables.Object(Granny).Get("Grounded"); 
         Crouched = (bool)Variables.Object(Granny).Get("Crouched");
         isOnPlatform_2 = (bool)Variables.Object(Granny).Get("isOnPlatform_2"); 
                      
@@ -326,8 +326,8 @@ public class Granny_Controller_2 : MonoBehaviour
             }
             else if (!Crouched){
                 AudioData.Play(0);
-                Animator.SetBool("jump", true);
-                //RigidBody.velocity = Vector2.up * 6;
+                //Animator.SetBool("jump", true);
+                RigidBody.velocity = Vector2.up * 6;
                 // Debug.Log("AddForce");
                 // Debug.Log(Vector2.up);
                 // Debug.Log("Grounded");
@@ -337,11 +337,11 @@ public class Granny_Controller_2 : MonoBehaviour
         }
     }
 
-    public void JumpEvent(){
+    /*public void JumpEvent(){
 
         RigidBody.velocity = Vector2.up * 6;
         Debug.Log("Jumping");
-    } 
+    } */
     public void Die(){
         Granny_Die = true;
         Variables.Object(Granny).Set("isGrannyDyieng", true);

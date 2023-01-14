@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 745d33c907c89fb4eae47b3f8f5567fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8911595734490964587
+    second: Talud_bajo_3X4_0
+  - first:
+      213: 140551251299076343
+    second: Talud_bajo_3X4_1
+  - first:
+      213: 1904527999300388586
+    second: Talud_bajo_3X4_2
+  - first:
+      213: 7525727964826264322
+    second: Talud_bajo_3X4_3
+  - first:
+      213: -2190983998556449239
+    second: Talud_bajo_3X4_4
+  - first:
+      213: 8583234647134864298
+    second: Talud_bajo_3X4_5
+  - first:
+      213: -1769105461007524624
+    second: Talud_bajo_3X4_6
+  - first:
+      213: -1756846177189646800
+    second: Talud_bajo_3X4_7
+  - first:
+      213: -4110913087842082224
+    second: Talud_bajo_3X4_8
+  - first:
+      213: 6432574399720497030
+    second: Talud_bajo_3X4_9
+  - first:
+      213: 5401783658264779967
+    second: Talud_bajo_3X4_10
+  - first:
+      213: -4733836711772775896
+    second: Talud_bajo_3X4_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519.3334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b626838da195cab70800000000000000
+      internalID: 8911595734490964587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 519.3334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80b6e4e9653f100800000000000000
+      internalID: 140551251299076343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 519.3334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6c51fef1e3e6a10800000000000000
+      internalID: 1904527999300388586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 519.3334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20361b306b1c07860800000000000000
+      internalID: 7525727964826264322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260.33334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9265a7169af0891e0800000000000000
+      internalID: -2190983998556449239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 260.33334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38c468f66cd1770800000000000000
+      internalID: 8583234647134864298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 260.33334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc5172d4ffd277e0800000000000000
+      internalID: -1769105461007524624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_7
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 260.33334
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eab93c5bd6e97e0800000000000000
+      internalID: -1756846177189646800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0522ba0c35a13f6c0800000000000000
+      internalID: -4110913087842082224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1.3333435
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9c96d558154950800000000000000
+      internalID: 6432574399720497030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1.3333435
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd1680e9df6fa40800000000000000
+      internalID: 5401783658264779967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Talud_bajo_3X4_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1.3333435
+        width: 259
+        height: 259.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a941277980e4eb0800000000000000
+      internalID: -4733836711772775896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Talud_bajo_3X4_3: 7525727964826264322
+      Talud_bajo_3X4_6: -1769105461007524624
+      Talud_bajo_3X4_8: -4110913087842082224
+      Talud_bajo_3X4_10: 5401783658264779967
+      Talud_bajo_3X4_0: 8911595734490964587
+      Talud_bajo_3X4_11: -4733836711772775896
+      Talud_bajo_3X4_4: -2190983998556449239
+      Talud_bajo_3X4_7: -1756846177189646800
+      Talud_bajo_3X4_5: 8583234647134864298
+      Talud_bajo_3X4_1: 140551251299076343
+      Talud_bajo_3X4_2: 1904527999300388586
+      Talud_bajo_3X4_9: 6432574399720497030
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

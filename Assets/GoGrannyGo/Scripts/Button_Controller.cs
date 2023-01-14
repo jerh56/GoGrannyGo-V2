@@ -13,6 +13,8 @@ public class Button_Controller : MonoBehaviour
     public GameObject Granny;
     public GameObject lblGamePaused;
     public GameObject btnGameExit;
+    public GameObject pnlExitWhenPause;
+
     public Button btnGamePaused;
     public TextMeshProUGUI btnText;
 
@@ -51,15 +53,17 @@ public class Button_Controller : MonoBehaviour
 
         if (isPaused){
             isPaused = false;
-            btnText.text = "Pause";
+            btnText.text = "II";
             btnGameExit.SetActive(false);            
             lblGamePaused.SetActive(false);
+            pnlExitWhenPause.SetActive(false);
             Time.timeScale = 1;
         }else{
             isPaused = true;
-            btnText.text = "Resume";
+            btnText.text = "=>";
             btnGameExit.SetActive(true);            
             lblGamePaused.SetActive(true);
+            pnlExitWhenPause.SetActive(true);
             Time.timeScale = 0;
         }
         

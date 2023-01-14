@@ -26,6 +26,8 @@ public class Game_Controller : MonoBehaviour
     public GameObject btnPlay;
     public GameObject btnExit;
     public GameObject btnGamePaused;
+    public GameObject pnlPausePlay;
+
     private AudioSource AudioData;
     public GameObject lblLevelDone;
     private bool isGrannyDyieng;
@@ -54,6 +56,7 @@ public class Game_Controller : MonoBehaviour
             btnPlay.SetActive(true);
             btnExit.SetActive(true);
             btnGamePaused.SetActive(false);
+            pnlPausePlay.SetActive(false);
             AudioData.Stop();
             //Time.timeScale = 0; 	//que la velocidad del juego sea 0}
             Variables.Object(Granny).Set("isGameOver", true);
@@ -128,6 +131,7 @@ public class Game_Controller : MonoBehaviour
         btnPlay.SetActive(true);
         btnExit.SetActive(true);
         btnGamePaused.SetActive(false);
+        pnlPausePlay.SetActive(false);
         AudioData.Stop();
         Time.timeScale = 0; 	//que la velocidad del juego sea 0
         Camera.main.GetComponent<AudioSource>().PlayOneShot(Done_Sound);
