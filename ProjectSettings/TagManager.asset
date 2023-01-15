@@ -3,12 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - joystick
+  - lblCoins
+  - lblLives
+  - lblTime
+  - lblGameOver
+  - panelPortrait
+  - lblScore
+  - lblLevelDone
+  - heart_01
+  - heart_02
+  - heart_03
+  - lblGamePaused
+  - heart_x
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - 
@@ -38,6 +51,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1504867825
+    locked: 0
+  - name: Background_2
+    uniqueID: 3885516869
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 3200888723
+    locked: 0
+  - name: Capa superior
+    uniqueID: 2734234189
     locked: 0
