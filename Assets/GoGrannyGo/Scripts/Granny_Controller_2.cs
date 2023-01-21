@@ -205,7 +205,7 @@ public class Granny_Controller_2 : MonoBehaviour
     }
     
     void OnTriggerEnter2D(Collider2D other){
-        if (other.gameObject.name == "grandson") {
+        if (other.gameObject.name == "fake_grandson") {
             Game_Controller Game_Controller = Game.GetComponent<Game_Controller>();
             Game_Controller.GetLevelDone();
         }
