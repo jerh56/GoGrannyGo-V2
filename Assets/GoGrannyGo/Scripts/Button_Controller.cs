@@ -68,4 +68,9 @@ public class Button_Controller : MonoBehaviour
         }
         
     }
+
+    public void Zoom(){
+        Camera.main.fieldOfView = 10;
+        Debug.Log("Zoom");
+    }
 }
