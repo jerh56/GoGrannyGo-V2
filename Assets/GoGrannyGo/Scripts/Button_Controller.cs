@@ -41,7 +41,7 @@ public class Button_Controller : MonoBehaviour
     }
 
     public void Reestart(){
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level-1", LoadSceneMode.Single);
     }
 
     public void ExitGame(){

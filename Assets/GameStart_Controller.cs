@@ -38,6 +38,6 @@ public class GameStart_Controller : MonoBehaviour
 
      public void Play(){
         lblLoading.SetActive(true);
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level-1", LoadSceneMode.Single);
     }
 }
