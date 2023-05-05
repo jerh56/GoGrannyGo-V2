@@ -17,6 +17,7 @@ TagManager:
   - heart_03
   - lblGamePaused
   - heart_x
+  - lblLevel
   layers:
   - Default
   - TransparentFX
