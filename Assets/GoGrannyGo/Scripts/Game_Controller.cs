@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
+
 
 public class Game_Controller : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class Game_Controller : MonoBehaviour
     public TMPro.TMP_Text lblCoins;
     public static int totalCoins;
     public static int totalLives;
+    public static int totalScore;
     public AudioClip Coin_Sound;
     public AudioClip Death_Sound;
     public AudioClip Done_Sound;
@@ -24,6 +27,7 @@ public class Game_Controller : MonoBehaviour
     //private GameObject Panel;
     public GameObject lblGameOver;
     public GameObject btnPlay;
+    public GameObject btnNext;
     public GameObject btnExit;
     public GameObject btnGamePaused;
     public GameObject pnlPausePlay;
@@ -35,13 +39,24 @@ public class Game_Controller : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
-        totalCoins = 0;
-        totalLives = 99;
         timeRemaining = 180;
         AudioData = GetComponent<AudioSource>();
+        Scene scene = SceneManager.GetActiveScene();
         //Panel = GameObject.FindWithTag("panelPortrait");
+        if (scene.name == "Level-1"){
+            totalScore = 0;
+            totalCoins = 0;
+            totalLives = 99;
+        }
         TMP_Text Lives = GameObject.FindWithTag("lblLives").GetComponent<TMP_Text>();
         Lives.text = totalLives.ToString();
+        lblCoins = GameObject.FindWithTag("lblCoins").GetComponent<TMP_Text>();
+        lblCoins.text = totalCoins.ToString();
+        lblScore = GameObject.FindWithTag("lblScore").GetComponent<TMP_Text>();
+        lblScore.text = totalScore.ToString();
+        TMP_Text Level = GameObject.FindWithTag("lblLevel").GetComponent<TMP_Text>();
+        Level.text = scene.name.Substring(6, scene.name.Length - 6);
+
     }
 
     // Update is called once per frame
@@ -122,13 +137,18 @@ public class Game_Controller : MonoBehaviour
         //TMP_Text Lives = GameObject.FindWithTag("lblLives").GetComponent<TMP_Text>();
         //totalLives -= 1;
         //Lives.text = totalLives.ToString();
+        Scene scene = SceneManager.GetActiveScene();
         lblTime = GameObject.FindWithTag("lblTime").GetComponent<TMP_Text>();
         lblCoins = GameObject.FindWithTag("lblCoins").GetComponent<TMP_Text>();
         lblScore = GameObject.FindWithTag("lblScore").GetComponent<TMP_Text>();
         score = int.Parse(lblCoins.text)  * int.Parse(lblTime.text);
-        lblScore.text = score.ToString();
+        totalScore = totalScore + score;
+        lblScore.text = totalScore.ToString();
         lblLevelDone.SetActive(true);
-        btnPlay.SetActive(true);
+        if (scene.name != "Level-3"){
+              btnNext.SetActive(true);
+        }
+        // btnPlay.SetActive(true);
         btnExit.SetActive(true);
         btnGamePaused.SetActive(false);
         pnlPausePlay.SetActive(false);
